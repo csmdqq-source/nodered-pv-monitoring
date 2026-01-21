@@ -1,0 +1,26 @@
+{
+  "name": "nodered-pv-monitoring",
+  "version": "1.0.0",
+  "description": "Node-RED middleware for PV monitoring system",
+  "dependencies": {
+    "node-red": "^3.1.0",
+    "node-red-contrib-influxdb": "^5.1.1",
+    "node-red-dashboard": "^3.6.0"
+  }
+}
+```
+4. **Commit changes**
+
+---
+
+### 文件3: `.gitignore`
+
+1. **点击 "Add file"** → **"Create new file"**
+2. 文件名：`.gitignore`
+3. 内容：
+```
+node_modules/
+*.log
+.env
+flows_*.json
+flows_*.json.backup
